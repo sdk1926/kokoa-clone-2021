@@ -1,5 +1,5 @@
 .find-body {
-  height: 100vh;
+  height: 120vh;
 }
 
 .find-header {
@@ -32,6 +32,9 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.open-chat {
+  margin-bottom: 50px;
+}
 .open-chat__header {
   display: flex;
   justify-content: space-between;

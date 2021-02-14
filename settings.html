@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>설정</title>
   </head>
-  <body>
+  <body class="settings">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>SKT</span>
@@ -23,12 +23,44 @@
     </div>
 
     <header class="alt-header">
-      <div class="alt-header__column"></div>
-      <div class="alt-header__column"></div>
-      <div class="alt-header__column"></div>
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">설정</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+      </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>공지사항</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>코코아 연구소</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>버전</span>
+          </div>
+          <div class="settings__setting-column">최신버전</div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
