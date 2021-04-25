@@ -1,3 +1,3 @@
 # kokoa clone 2021
 
-HTML & CSS are so much fun!
+'노마드 코더 강의: HTML과CSS로 배우는 카카오톡 클론 코딩' 강의를 보며 따라치고 배우고 나온 결과물 입니다. 
